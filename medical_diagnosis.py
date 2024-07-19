@@ -15,8 +15,8 @@ st.set_page_config(layout="wide")
 
 # Load models
 diabetes = pickle.load(open('diabetes_model.pkl', 'rb'))
-cancer = pickle.load(open('C:/Users/Mrunali/Desktop/Medical Diagnosis System/saved model/cm.pkl', 'rb'))
-heart = pickle.load(open('C:/Users/Mrunali/Desktop/Medical Diagnosis System/saved model/heart_disease_model.pkl', 'rb'))
+cancer = pickle.load(open('cm.pkl', 'rb'))
+heart = pickle.load(open('heart_disease_model.pkl', 'rb'))
 
 # Define tabs
 tabs = st.tabs(["Home", "Diabetes Prediction", "Cancer Prediction", "Heart Disease Prediction"])
