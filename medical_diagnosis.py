@@ -14,7 +14,7 @@ import seaborn as sns
 st.set_page_config(layout="wide")
 
 # Load models
-diabetes = pickle.load(open('C:/Users/Mrunali/Desktop/Medical Diagnosis System/saved model/diabetes_model.pkl', 'rb'))
+diabetes = pickle.load(open('diabetes_model.pkl', 'rb'))
 cancer = pickle.load(open('C:/Users/Mrunali/Desktop/Medical Diagnosis System/saved model/cm.pkl', 'rb'))
 heart = pickle.load(open('C:/Users/Mrunali/Desktop/Medical Diagnosis System/saved model/heart_disease_model.pkl', 'rb'))
 
